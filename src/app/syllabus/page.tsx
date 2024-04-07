@@ -28,26 +28,26 @@ const CoreTrackdata = [
 
 const Syllabus = () => {
     return (
-        <section className="mt-16 lg:mt-28">
+        <section className="flex-wrap justify-around" >
             <Wrapper>
-                {/* Content */}
-                <div className="max-w-screen-sm">
-
-                </div>
+                
+               
                 {/* Boxes */}
-                <div className="my-20 flex flex-col md:flex-row gap-x-8  gap-y-6 mt-[300px]">
+                <div className="my-20 flex flex-col  md:flex-row gap-x-8  gap-y-6 mt-[300px]  ">
                     {
                         CoreTrackdata.map((item, i) => (
-                            <div className="border rounded-xl flex-1 relative px-10 py-16 flex flex-col justify-center shadow-xl hover:scale-110 duration-500 text-black">
+                            <div className="border rounded-xl flex-1 relative px-10 py-16 flex flex-col justify-center shadow-xl hover:scale-110 duration-500 text-black md:flex-col">
                                 <h4 className="font-bold text-lg">{item.header}</h4>
                                 <p className="mt-2 text-black z-0">{item.description}</p>
                                 <div className="absolute text-gray-400 -top-10 right-16 text-[170px] font-bold -z-10 scale-95">{i + 1}</div>
+                               
                             </div>
+                            
+                           
                         )
                         )
 
                     }
-
 
 
 

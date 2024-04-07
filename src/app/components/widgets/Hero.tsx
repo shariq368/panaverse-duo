@@ -18,7 +18,7 @@ const Hero = () => {
             </h2>
             <Link href={'https://portal.piaic.org/'} > 
             <div className="mt-6">
-           <Button  text="Join Now"/>
+           <Button  text="Apply Now"/>
             </div>
             </Link>
           </div>
