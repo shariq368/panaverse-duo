@@ -31,7 +31,7 @@ const Coretrackdata = [
     {
       title: "Q4",
       des: "Advanced AI and Cloud Development",
-      text:"The fourth quarter covers custom GPT developmen"
+      text:"The fourth quarter covers custom GPT development"
   
   
   
@@ -57,10 +57,10 @@ const Syllabus = () => {
         
         {
           Coretrackdata.map((item, i) => (
-                          <div key={title} className="py-16 md:py-32 px-10 my-8 mx-36  border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-left hover:scale-105 duration-300">
+                          <div key={title} className="py-4 px-32 md:py-32 md:px-10 my-8 mx-1 md:mx-2 lg:mx-32  border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-center md:text-left hover:scale-105 duration-300">
           <h4 key={title}  className="font-bold text-8xl text-purple-900">{item.title}</h4>
-          <p className="mt-2 text-black z-0 font-bold text-lg">{item.des}</p>
-          <p className="mt-2 text-black z-0 text-md">{item.text}</p>
+          <p className="mt-2 text-black z-0  font-bold text-lg">{item.des}</p>
+          <p className="mt-2 text-black z-0  text-md">{item.text}</p>
           
         </div>
         )

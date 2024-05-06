@@ -54,7 +54,7 @@ const CoreTrack2 = () => {
         
           {
             Coretrackdata.map((item , i) => (
-                            <div key={title} className="py-16 md:py-32 px-10 my-8 mx-36  border rounded-lg shadow-xl bg-[#DBDBDB] backdrop:blur-md border-purple-500 text-center md:text-left hover:scale-105 duration-1000 hover:bg-[#e0aaff] ">
+                            <div key={title} className="py-4 px-32 md:py-32 md:px-10 my-8 mx-1 md:mx-5 lg:mx-32  border rounded-lg shadow-xl bg-[#DBDBDB] backdrop:blur-md border-purple-500 text-center md:text-left hover:scale-105 duration-1000 hover:bg-[#e0aaff]  ">
             <h4 key={title}  className="font-bold text-4xl text-purple-900">{item.title}</h4>
             <p className="mt-2 text-black z-0 font-bold text-lg">{item.des}</p>
             <p className="mt-2 text-black z-0 text-md">{item.text}</p>
