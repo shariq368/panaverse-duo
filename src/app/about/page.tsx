@@ -11,7 +11,7 @@ const About = () => {
           <Wrapper>
   <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
     <Image
-      className="lg:w-1/5 md:w-1/4 w-1/3 mb-10 object-cover object-center rounded"
+      className="lg:w-1/5 md:w-1/3 w-1/2 mb-10 object-cover object-center rounded"
       src={Picture}
       width={500}
       height={500}
