@@ -21,7 +21,7 @@ const Header = () => {
 
         </div>
         {/* Navigation bar */}
-        <ul className="flex space-x-6 font-medium text-black items-center  ">
+        <ul className="flex space-x-6 font-medium text-black items-start md:items-end   ">
           <li className="hover:text-purple-500">
             <Link href={'/'}>
               Home
