@@ -10,13 +10,14 @@ const About = () => {
              {/* Right side text */}
      <div className="mt-12">
       {/* Image side */}
-      <div className="flex px-[16rem] text-center justify-items-center align-middle gap-5 max-w-[800px] m-auto flex-col self-center">
+      <div className="flex px-[16rem] text-center justify-items-center align-middle gap-5 max-w-[800px]  m-auto flex-col self-center">
         <Image src={Picture} alt="picture"/>
-        <h1 className="text-2xl font-bold text-[#7c7676]">Dr. Arif Alvi</h1>
-        <p className="text-sm font-normal text-[#726c6c] mt-2">President of the Islamic Public of Pakistan</p>
+        <h1 className="text-xl md:text-2xl font-bold text-[#726c6c]">Dr. Arif Alvi</h1>
+        
+        <p className="text-sm  font-medium text-[#726c6c] mt-1">President of the Islamic Public of Pakistan</p>
 
       </div>
-       <div className="text-justify pt-3 text-[#726c6c] p-44">
+       <div className="text-justify pt-3 text-[[#726c6c] p-24">
         <p className="pb-3">Dr. Arif Alvi was sworn in as the 13th President of Islamic Republic of Pakistan on 9th September 2018. </p>
 
       <p className="pb-3">

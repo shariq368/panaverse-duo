@@ -1,26 +1,44 @@
 import Wrapper from "../components/shared/Wrapper"
 import Button from "../components/shared/Button"
+import { title } from "process"
 
-
-const CoreTrackdata = [
+const Coretrackdata = [
     {
-        header: "Quarter 1",
-        description: "Unleash Your Fitness Potential",
+      title: "Q1",
+      des: "TypeScript and Python Programming",
+      text:"The first quarter covers TypeScript and Python programming",
+  
+      
+  
+  
     },
     {
-        header: "Quarter 2",
-        description: "Expert Articles & Personalized Plans to Fuel Your Journey",
+      title: "Q2",
+      des: "Front-end Development using Next.js",
+      text:"The second quarter focuses on front-end development using Next.js."
+      
+  
+  
     },
     {
-        header: "Quarter 3",
-        description: "Join Now & Achieve Your Fitness Goals",
+      title: "Q3",
+      des: "Custom GPT and  API Deployment",
+      text:"The third quarter introduces API development database containers cloud deployment and DevOps."
+      
+  
+  
     },
     {
-        header: "Quarter 4",
-        description: "Join Now & Achieve Your Fitness Goals",
-    }
+      title: "Q4",
+      des: "Advanced AI and Cloud Development",
+      text:"The fourth quarter covers custom GPT developmen"
+  
+  
+  
+    },
+  
+  ]
 
-]
 
 
 
@@ -28,35 +46,34 @@ const CoreTrackdata = [
 
 const Syllabus = () => {
     return (
-        <section className="flex-wrap justify-around" >
-            <Wrapper>
-                
-               
-                {/* Boxes */}
-                <div className="my-20 flex flex-col  md:flex-row gap-x-8  gap-y-6 mt-[300px]  ">
-                    {
-                        CoreTrackdata.map((item, i) => (
-                            <div className="border rounded-xl flex-1 relative px-10 py-16 flex flex-col justify-center shadow-xl hover:scale-110 duration-500 text-black md:flex-col">
-                                <h4 className="font-bold text-lg">{item.header}</h4>
-                                <p className="mt-2 text-black z-0">{item.description}</p>
-                                <div className="absolute text-gray-400 -top-10 right-16 text-[170px] font-bold -z-10 scale-95">{i + 1}</div>
-                               
-                            </div>
-                            
-                           
-                        )
-                        )
+        <Wrapper>
+            <div className="mt-20 ">
+            <div>
+                <h2 className="font-bold p-4 mx-auto text-5xl text-[#480048] text-center ">Course Detailed</h2>
+            </div>
 
-                    }
+ {/* boxes */}
+ <div className="my-20 grid grid-cols-1 md:grid-cols-2  gap-x-0  gap-y-6">
+        
+        {
+          Coretrackdata.map((item, i) => (
+                          <div key={title} className="py-16 md:py-32 px-10 my-8 mx-36  border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-left hover:scale-105 duration-300">
+          <h4 key={title}  className="font-bold text-8xl text-purple-900">{item.title}</h4>
+          <p className="mt-2 text-black z-0 font-bold text-lg">{item.des}</p>
+          <p className="mt-2 text-black z-0 text-md">{item.text}</p>
+          
+        </div>
+        )
+          )
+          
+        }
+        </div>
 
+        </div>
+        </Wrapper>
 
-
-
-                </div>
-
-            </Wrapper>
-        </section>
     )
 }
+
 
 export default Syllabus

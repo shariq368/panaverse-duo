@@ -8,7 +8,7 @@ import { AnimatePresence, animate, motion } from "framer-motion";
 const Header = () => {
 
   return (
-    <header className="sticky top-0 backdrop-blur-md  py-2 pt-8 bg-white z-10 bg-opacity-90">
+    <header className="sticky top-0 backdrop-blur-md  py-2 pt-8 bg-transparent z-10 bg-opacity-90">
 <Wrapper>
     <div className="  flex justify-between   items-center">
       

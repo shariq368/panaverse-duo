@@ -1,5 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+ 
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+body{
+ 
+  background-image: linear-gradient(45deg, #ffffff , #DBDBDB ,#9D50BB );
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
 
-
+@keyframes color {
+  0%{
+    background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+  100%{
+    background-position: 0% 50%;
+  }
+}
