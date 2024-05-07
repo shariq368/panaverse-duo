@@ -13,7 +13,7 @@ const Header = () => {
     <div className=" mx-auto flex  p-2  md:flex-row items-center justify-between ">
       
         {/* logo */}
-        <div className="w-[5rem] md:w-[8rem]">
+        <div className="w-[6rem] md:w-[8rem]">
 
 
           <Image src={Logo} alt="Panaverse Logo" width={500} height={500} />
