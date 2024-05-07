@@ -58,7 +58,7 @@ const Specialtrack = () => {
             <h2 className="title-font text-lg font-semibold text-[#726c6c] mb-3">
             Artificial Intelligence and Deep Learning
             </h2>
-            <p className="leading-relaxed mb-3">
+            <p className="leading-relaxed  mb-3">
             Artificial intelligence is the simulation of human intelligence processes by machines especially computer systems. The AI and Deep Learning Specialization is a foundational program that will aid in your comprehension of deep learning potential difficulties and effects as well as equip you to take part in the creation of cutting-edge AI technology.
             </p>
             <div className="flex items-center flex-wrap">

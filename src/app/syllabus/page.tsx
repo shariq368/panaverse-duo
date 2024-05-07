@@ -57,7 +57,7 @@ const Syllabus = () => {
         
         {
           Coretrackdata.map((item, i) => (
-                          <div key={title} className="p-6 mt-20 md:p-14 lg:p-24 lg:mx-28  border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-center md:text-left hover:scale-105 duration-300">
+                          <div key={title} className="p-16 mt-20 md:p-14 lg:p-10  lg:mx-28 xl:p-24 border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-center md:text-left hover:scale-105 duration-300">
           <h4 key={title}  className="font-bold text-8xl text-purple-900">{item.title}</h4>
           <p className="mt-2 text-black z-0  font-bold text-lg">{item.des}</p>
           <p className="mt-2 text-black z-0  text-md">{item.text}</p>
