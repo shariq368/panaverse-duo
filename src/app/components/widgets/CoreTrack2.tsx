@@ -50,11 +50,11 @@ const CoreTrack2 = () => {
         <h2 className="font-bold  text-5xl  text-[#480048]">Quarter</h2>
 </div>
         {/* boxes */}
-        <div className="my-14 grid grid-cols-1 md:grid-cols-2  gap-x-0  gap-y-6">
+        <div className="my-14 grid sm:grid-cols-1 md:grid-cols-2 mb-20 gap-8  sm:px-0">
         
           {
             Coretrackdata.map((item , i) => (
-                            <div key={title} className="py-4 px-32 md:py-32 md:px-10 my-8 -mx-32 md:mx-5 lg:mx-32  border rounded-lg shadow-xl bg-[#DBDBDB] backdrop:blur-md border-purple-500 text-center md:text-left hover:scale-105 duration-1000 hover:bg-[#e0aaff]  ">
+                            <div key={title} className="py-4 px-32 md:py-32 md:px-10 my-8  md:mx-5 lg:mx-32  border rounded-lg shadow-xl bg-[#DBDBDB] backdrop:blur-md border-purple-500 text-center md:text-left hover:scale-105 duration-1000 hover:bg-[#e0aaff]  ">
             <h4 key={title}  className="font-bold text-4xl text-purple-900">{item.title}</h4>
             <p className="mt-2 text-black z-0 font-bold text-lg">{item.des}</p>
             <p className="mt-2 text-black z-0 text-md">{item.text}</p>
