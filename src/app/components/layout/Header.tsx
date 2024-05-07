@@ -8,9 +8,9 @@ import { AnimatePresence, animate, motion } from "framer-motion";
 const Header = () => {
 
   return (
-    <header className="sticky top-0 backdrop-blur-md  py-2 pt-6 bg-transparent z-10 bg-opacity-90">
+    <header className="sticky top-0 backdrop-blur-md  py-2  bg-transparent z-10 bg-opacity-90">
 <Wrapper>
-    <div className=" mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center justify-between ">
+    <div className=" mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center justify-between ">
       
         {/* logo */}
         <div>

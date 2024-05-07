@@ -53,11 +53,11 @@ const Syllabus = () => {
             </div>
 
  {/* boxes */}
- <div className="my-20 grid grid-cols-1 md:grid-cols-2  gap-x-0  gap-y-6">
+ <div className="grid sm:grid-cols-1 md:grid-cols-2 mb-20 gap-8  sm:px-0">
         
         {
           Coretrackdata.map((item, i) => (
-                          <div key={title} className="py-4 px-32 md:py-32 md:px-10 my-8 mx-1 md:mx-2 lg:mx-32  border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-center md:text-left hover:scale-105 duration-300">
+                          <div key={title} className="p-6 mt-20 md:p-14 lg:p-24 lg:mx-28  border rounded-lg shadow-xl bg-[#DBDBDB] bg-opacity-100 backdrop:blur-md border-purple-600 hover:bg-[#e0aaff] text-center md:text-left hover:scale-105 duration-300">
           <h4 key={title}  className="font-bold text-8xl text-purple-900">{item.title}</h4>
           <p className="mt-2 text-black z-0  font-bold text-lg">{item.des}</p>
           <p className="mt-2 text-black z-0  text-md">{item.text}</p>
