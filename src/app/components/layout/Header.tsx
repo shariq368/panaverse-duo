@@ -8,7 +8,7 @@ import { AnimatePresence, animate, motion } from "framer-motion";
 const Header = () => {
 
   return (
-    <header className="sticky top-0 backdrop-blur-md  py-2  bg-white z-10 bg-opacity-90">
+    <header className="sticky top-0 backdrop-blur-md  py-2  bg-transparent z-10 bg-opacity-90">
 <Wrapper>
     <div className=" mx-auto flex  p-2  md:flex-row items-center justify-between ">
       
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         {/* Navigation bar */}
         
-        <ul className=" flex  space-x-4 font-light md:space-x-6 md:font-medium text-black item-center justify-center mt-3 ">
+        <ul className=" flex  space-x-3 text-sm md:space-x-6 md:font-medium text-black item-center justify-center mt-3 ">
           <li className="hover:text-purple-500">
             <Link href={'/'}>
               Home
