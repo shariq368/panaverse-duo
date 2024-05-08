@@ -12,7 +12,7 @@ const Specialtrack = () => {
     <div className="mt-20">
         
         <section className="text-gray-600 body-font">
-          <Wrapper>
+          
             <div className="text-center">
                 <h2 className="font-bold  text-5xl  text-[#480048]">Specialized Track</h2>
             </div>
@@ -102,7 +102,7 @@ const Specialtrack = () => {
       </div>
     </div>
   </div>
-  </Wrapper>
+  
 </section>
 
     </div>
