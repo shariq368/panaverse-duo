@@ -1,11 +1,13 @@
 import Image from "next/image"
 import Logo from "../../../../public/assets/image/logo.png"
 import Link from "next/link"
+import Wrapper from "../shared/Wrapper"
 
 const Footer = () => {
     return (
         <div className="mt-10">
             <footer className="p-4 bg-gradient-to-b from-[#41295a] to-[#2F0743] sm:p-6 dark:bg-white">
+              <Wrapper>
   <div className="mx-auto max-w-screen-xl">
     <div className="md:flex md:justify-between">
       <div className="mb-6 md:mb-0">
@@ -171,6 +173,7 @@ const Footer = () => {
       </div>
     </div>
   </div>
+  </Wrapper>
 </footer>
 
         </div>

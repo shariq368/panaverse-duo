@@ -2,11 +2,13 @@ import Button from "../shared/Button"
 import Image from "next/image"
 import Link from "next/link"
 import con from '../../../../public/assets/image/Content3.png'
+import Wrapper from "../shared/Wrapper"
 
 const Content = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
+        <Wrapper>
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
@@ -35,6 +37,7 @@ const Content = () => {
             </div>
           </div>
         </div>
+        </Wrapper>
       </section>
 
     </div>

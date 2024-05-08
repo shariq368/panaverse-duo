@@ -4,6 +4,7 @@ import Link from "next/link"
 import web3 from "../../../../public/assets/image/Web 3.0.png"
 import AI from "../../../../public/assets/image/AI Pic.png"
 import Cloud from "../../../../public/assets/image/Cloud Computing.png"
+import Wrapper from "../shared/Wrapper"
 
 
 const Specialtrack = () => {
@@ -11,6 +12,7 @@ const Specialtrack = () => {
     <div className="mt-20">
         
         <section className="text-gray-600 body-font">
+          <Wrapper>
             <div className="text-center">
                 <h2 className="font-bold  text-5xl  text-[#480048]">Specialized Track</h2>
             </div>
@@ -100,6 +102,7 @@ const Specialtrack = () => {
       </div>
     </div>
   </div>
+  </Wrapper>
 </section>
 
     </div>

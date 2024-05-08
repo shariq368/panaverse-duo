@@ -11,7 +11,7 @@ const Hero = () => {
     <section>
       <Wrapper>
         {/* Left side */}
-        <div className="mx-auto flex md:flex-row flex-col items-center ">
+        <div className="mx-auto flex md:flex-row flex-col items-center  ">
           <div className="flex-1">
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-semibold text-[#480048] text-center md:text-left">THE AGE OF <br />
              GENERATIVE AI <br />
