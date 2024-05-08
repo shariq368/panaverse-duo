@@ -27,7 +27,7 @@ const Specialtrack = () => {
             height={500}
             alt="Web 3.0 Pic"
           />
-          <div className="p-6">
+          <div className="p-3 md:p-6">
             
             <h2 className="title-font text-lg font-semibold text-[#726c6c] mb-3">
               Web 3.0 (BlockChain)
@@ -55,7 +55,7 @@ const Specialtrack = () => {
             height={500}
             alt="Ai pic"
           />
-          <div className="p-6">
+          <div className="p-3 md:p-6">
             
             <h2 className="title-font text-lg font-semibold text-[#726c6c] mb-3">
             Artificial Intelligence and Deep Learning
@@ -82,7 +82,7 @@ const Specialtrack = () => {
             height={500}
             alt="Cloud Computing pic"
           />
-          <div className="p-6">
+          <div className="p-3 md:p-6">
             
             <h2 className="title-font text-lg font-semibold text-[#726c6c] mb-3">
             Cloud-Native Computing Specialization
